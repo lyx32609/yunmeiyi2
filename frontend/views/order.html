@@ -1,0 +1,15 @@
+ $(document).ready(function(){
+            $("#btn").click(function(){
+             $.ajax({
+                type: 'POST',
+                url: "/Home/MyAjax",
+                data: {
+                    val1: $("#txt1").val(),
+                    val2: $("#txt2").val(),
+                    val3: $("#txt3").val(),
+                    val4: $("#txt4").val(),
+                },
+                dataType: "json"
+            });
+            });
+        });  

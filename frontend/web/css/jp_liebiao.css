@@ -1,0 +1,424 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.chakan_container{
+	width:100%;
+	height:100%;
+}
+.dao_hang{
+	width:100%;
+	height:42px;
+	border:1px solid #ccc;
+	background-color:#009900;
+}
+.nav li{
+	float:left;
+	width:80px;
+	height:42px;
+	line-height:42px;
+	text-align:center;
+	font-size:18px;
+}
+.nav{
+	width:1200px;
+	margin:0 auto;
+	height:42px;
+}
+.nav li a{
+	padding:0px;
+	color:#FFF;
+}
+.center-search{
+	width:1200px;
+	margin:0 auto;
+	margin-top:10px;
+	background-color:#f0f0f0;
+}
+.l_xx{
+	width:78px;
+	padding-left:10px;
+	height:30px;	
+	border:none;
+	border:1px solid greenyellow;
+
+}
+.select_div{
+	padding:15px;
+	border:none;
+	margin:0;
+}
+.x_xiala{
+	width:88px;
+	height:30px;
+	float:left;
+	margin-right:15px;
+}
+.wangfan{
+	display:inline-block;
+}
+.search_titck{
+	display:inline-block;
+	float:right;
+}
+.span_01{
+	width:45px;
+	font-size:12px;
+	display:inline-block;
+	line-height:30px;
+	float:left;
+	height:30px;
+}
+.cf_city{
+	position: relative;
+	float:left;
+}
+span.qifei_span{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	font-size:20px;
+	position:absolute;
+	z-index:2;
+	left:5px;
+	top:0px;
+	
+}
+.input_chufa{
+	width:192px;
+	padding-left:32px;
+	height:30px;
+	border:none;
+	border:1px solid #ccc;
+	margin-right:11px;
+}
+.search_titck .btn{
+	font-size:12px;
+	width:92px;
+	
+}
+.gj_search{
+	margin-left:2px;
+	color:#009900;
+	cursor:pointer;
+}
+.one_line{
+	/*overflow:hidden;*/
+}
+div.two_line{
+	margin-top:10px;
+	display:none;
+}
+div.three_line{
+	margin-top:10px;
+	display:none;
+}
+.main{
+ width:1200px;
+ margin:0 auto;
+ overflow:hidden;
+ margin-top:10px;
+}
+.s_xiao{
+	margin-left:5px;
+}
+.qf_time{
+	overflow:hidden;
+	margin-left:25px;
+	}
+.jp_center{
+	width:1200px;
+	margin:0 auto;
+	
+}
+.jp_center_h4{
+	width:1200px;
+	height:30px;
+	border:1px solid #ccc;
+	margin-bottom:10px;
+	background-color:rgb(0,153,0);
+}
+.bi_ti li{
+	float:left;
+	line-height:30px;
+	color:#FFF;
+}
+.bi_ti li a{
+	color:#FFF;
+	text-decoration: none;
+}
+.bi_ti .bi_ti_li{
+	width:90px;
+	margin-left:35px;
+}
+.bi_ti .qifei_time{
+	margin-left:100px;
+	width:125px;
+}
+.bi_ti .daoda_time{
+	width:105px;
+	margin-left:125px;
+}
+.bi_ti .zhundian{
+	width:110px;
+	text-align:center;
+	margin-left:50px;
+}
+.bi_ti .youhui{
+	width:105px;
+	margin-left:105px;
+}
+.bi_ti .jiage{
+	width:105px;
+	margin-left:50px;
+}
+.div_xinxi{
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+	background-color:#ccc;
+	
+}
+.li_div{
+	width:100%;
+	min-height:98px;
+	background-color:#fff;
+	margin-bottom:4px;
+	border:1px solid #ccc;
+	position:relative;
+}
+
+ul.table_01{
+	display:table-row;
+	vertical-align: inherit;
+	border-color:inherit;
+	overflow:hidden;
+}
+.table_01 li{
+	padding:28px 5px 24px;
+	float:left;
+}
+li.logo{
+	width:168px;
+	white-space: nowrap;
+	
+}
+.img_name{
+	float:left;
+	width:20px;height:15px;margin-right:4px;position: absolute;left:0px;
+}
+span.c_name{
+	display:inline-block;
+	height:16px;
+	padding-left:27px;
+	float:left;
+	margin-bottom:5px;
+}
+.logo_samll{
+	overflow:hidden;
+	position: relative;
+}
+span.hk_name{
+	display:inline-block;
+	float:left;
+	margin-left:10px;
+}
+.logo_footer{
+	padding-bottom:1px;
+	border-bottom:1px dashed #999;
+	margin-left:28px;
+}
+li.li_qifei{
+	width:165px;
+	padding-left:30px;
+	text-align:center;
+	padding-right:20px;
+}
+.data_qifei{
+	font-size:20px;
+	line-height:20px;
+}
+.center_li_wai{
+	width:86px;
+	height:45px;
+}
+.arrow{
+	width:86px;
+	height:40px;
+	background:url(../images/flight_arrow.png) no-repeat center right;
+}
+ li.li_jiangluo{
+	padding-left:20px;
+	text-align:center;
+	padding-right:0px;
+	width:160px;
+}
+li.z_d_lv{
+	padding-left:20px;
+	text-align:center;
+	width:200px;
+
+}
+li.preferential{
+	padding-left:195px;
+	padding-right:0px;
+}
+li.price{
+	width:114px;
+	padding-left:0px;
+}
+dfn{
+	font-style:normal;
+	color:#333;
+	vertical-align: top;
+	font-size:12px;
+}
+span.number{
+	font-size:28px;
+	color:#FF6600;
+	float:left;
+	display:inline;
+	
+}
+span.up{
+	vertical-align: bottom;
+	float:left;
+	display:inline-block;
+	padding-top:20px;
+}
+li.orange_button{
+	width:65px;
+	padding-left:15px;
+}
+.orange{
+	width:67px;
+	padding:5px;
+	background-color:#FF6600;
+	border:none;
+	color:#fff;
+	border-radius:5px;
+}
+.orange_dancheng{
+	color:#fff;
+}
+.Ticket_details{
+	width:100%;
+	overflow:hidden;
+}
+.ticket_row{
+	padding:5px 0px;
+	border:1px dashed #ccc;
+	border-left:none;
+	border-right:none;
+	position:relative;
+	overflow:hidden;
+}
+.ticket_row_left{
+	float:left;
+	overflow:hidden;
+	width:75px;
+	height:16px;
+	position:absolute;
+	left:15px;
+	top:15px;
+    line-height:16px;
+}
+.ticket_row_word{
+	cursor:help;
+	color:#5fff2b;
+}
+.display{
+	display:inline-block;
+}
+.ticket_row_ol{
+	float:left;
+
+}
+.ticket_row_ol{
+	margin-left:114px;
+	height:130px;
+}
+.invoice{
+	padding-left:10px;
+	display:inline-block;
+	padding-top:5px;
+}
+div.retrun_ticket{
+	width:80px;
+	padding-left:10px;
+}
+.public{
+	padding:5px 0px;
+}
+em{
+	font-style:normal;
+}
+.reund{
+	color:#5fff2b;
+}
+.jp_list .col-md-2{
+	text-align: center;
+	margin-top: 5%;
+}
+.jp_list .col-md-10{
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
+    padding: 10px 0;
+}
+.jp_list .col-md-10 .shu{
+	color: rgba(0, 0, 0, 0.15);
+}
+.jp_list .col-md-10 .row{
+	line-height: 52px;
+	/*margin-right:0px;
+	margin-left:0px;*/
+}
+.jp_list .col-md-10 .jp_jg{
+	margin-left: 130px;
+    font-size: 20px;
+    color: #bb0000;
+}
+.jp_gs-l{
+	margin-top: -4.5%;
+}
+.jp_gs .btn-danger{
+	margin-left: 98px;
+	width: 70px;
+}
+.div_from_01{
+	width:192px;
+	height:30px;
+	float:left;
+	margin-right:11px;
+	margin-bottom: 15px;
+}
+.chufa_date_dat{
+	padding-top:4px;
+	padding-bottom:4px;
+	height:30px;
+	border-radius:0px;
+}
+.table_display_none{
+	border-bottom:1px solid #ccc;
+}
+
+.wai_button{
+	position:absolute;
+	top:80px;
+	right:18px;
+	z-index:200;
+	display:none;
+}
+.shouqi_button{
+	width:65px;
+	padding:5px;
+	border:none;
+	border:1px solid #FF6600;
+	background-color:#fff;
+    border-radius:5px;
+}
+.dan_cheng_button{
+	top:35px;
+}
+.orange_dancheng{
+	background-color:#FF5500;
+}

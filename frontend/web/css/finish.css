@@ -1,0 +1,16 @@
+.finish{
+	padding-top:40px;
+	vertical-align: middle;
+	text-align:center;
+	
+}
+.finish_info{
+	text-align:center;
+	padding-top:20px;
+	font-size:35px;
+	color:#D58512;
+	font-family:"微软雅黑";
+}
+.main_finish{
+	min-height:500px;
+}

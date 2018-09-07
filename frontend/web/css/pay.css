@@ -1,0 +1,288 @@
+div,ul,li{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-size:12px;
+	font-family: Tahoma,"\5FAE\8F6F\96C5\9ED1",Arial,sans-serif;
+}
+li {list-style-type:none;}
+div.container{
+	width: 980px;
+}
+div.container_dingdan{
+	width:100%;
+	margin:0 auto;
+	padding:0px;
+	background-color:#eaf0f3;
+}
+.order_header{
+	width:100%;
+	height:100px;
+	padding-top:15px;
+	background-color:#fff;
+	border-bottom:1px solid #d6dde2;
+}
+.order_header_top,.main_container{
+	width:980px;
+	margin:0 auto;
+	padding-left: calc(100vw - 100%);
+	position:relative;
+	overflow:hidden;
+}
+.order_header_logo{
+	width:217px;
+	float:left;
+}
+.logo_orader_poto{
+	display:inline-block;
+	background:url(../images/logo.jpg) no-repeat left top;
+	height:80px;
+	overflow:hidden;
+	width:217px;
+}
+.order_nav{
+	width:750px;
+	margin-top:25px;
+	margin-left:30px;
+	color:#abb4c3;
+	font-size:14px;
+	float:left;
+	height:20px;
+/*	border:1px solid #eafof3;*/
+	position:relative;
+	border-bottom:1px solid #eaf0f3;
+}
+.pro_step{
+	width:29%;
+	
+	display:inline-block;
+}
+.pro_step h4{
+	position:relative;
+	z-index:4;
+	padding:0px 9px 10px;
+	padding-left:27px;
+	font-weight:300;
+	background:#fff;
+	font-size:14px;
+	display:inline-block;
+}
+.orangr_order{
+	color:#5FFF2B;
+}
+.pro_step_last{
+	width:11.2%;
+	background-color:#fff;
+}
+.order_custom{
+	position:absolute;
+	right:0px;
+	top:34px;
+	padding-left:50px;
+	color:#23394d;
+	font-size:14px;
+}
+.respect{
+	display:inline-block;
+	max-width:135px;
+	vertical-align: middle;
+}
+.respect_center{
+	margin-left:6px;
+	padding-left:10px;
+	border-left:1px solid #ccc;
+	vertical-align: middle;
+}
+.order_custom a{
+	color:#23394d;
+}
+.order_information{
+	background: #e4f3fb;
+	padding-bottom: 16px;
+	margin-top: 10px;
+}
+.order_information .information_con{
+	padding-top: 18px;
+}
+.jine{
+	font-size: 14px;font-weight: bold;
+}
+.jine .c{
+	color: #ff6600;
+}
+.jine .j{
+	font-size: 24px;
+}
+.order_information .information_con .address{
+	margin-bottom: 5px;font-weight: bold;
+}
+.information_prompt{
+	background: #eef7fc;
+	color: #666666;
+	padding:16px 0;
+}
+.nav-tabs li{
+	width: 12%;
+    text-align: center;
+}
+.weixin p{
+	background: url(../images/wechat.png) no-repeat center top;
+	padding-top: 230px;
+	margin: 50px 0;
+	text-align: center;
+}
+.tab-content{
+	border:1px solid #dddddd;
+	padding: 10px 0 30px 0;
+}
+.card_con{
+	padding: 70px 0;
+}
+.card_team{
+	padding-left: 155px;
+    position: relative;
+}
+.card_title{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 150px;
+    text-align: right;
+    height: 36px;
+    line-height: 36px;
+}
+.card_from{
+	position: relative;
+}
+.card_from input{
+	width: 318px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 20px;
+}
+.hint{
+	color: #999;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.hint a{
+	border-left: 1px solid #EDEDED;
+    margin-left: 8px;
+    padding-left: 8px;
+}
+.ti{
+	height: 58px;
+    font-size: 16px;
+}
+.bank_type{
+	float: left;
+}
+.ml0{
+	font-style: normal;
+}
+.bank_list.alone{
+	border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding-left: 27px;
+}
+.bank_items li.act{
+	width: 203px;
+    height: 46px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(245, 116, 3);
+    border-image: initial;
+}
+.bank_items li{
+	float: left;
+	width: 203px;
+    height: 46px;
+	border-width: 2px;
+    border-style: solid;
+    border-color: rgb(193, 193, 193);
+    border-image: initial;
+	cursor: pointer;
+	position: relative;
+	margin:10px 10px;
+    font-size: 12px;
+}
+.bank_items li i{
+	display: inline-block;
+    width: 158px;
+    height: 34px;
+	background-color: rgb(255, 255, 255);
+	margin: 6px 0px 0px 8px;
+}
+.bank_items li .hint{
+	position: absolute;
+    font-size: 11px;
+    top: -17px;
+    left: -1px;
+    height: 16px;
+    max-width: 194px;
+    line-height: 16px;
+    background: rgb(255, 209, 209);
+    padding: 0px 6px;
+    overflow: hidden;
+}
+.more_alipay{
+	background-image: url(../images/alipay.png);
+    background-repeat: no-repeat;
+}
+.clear{ clear:both}
+.creditcard_comm{
+	background-image: url(../images/bank/comm.png);
+    background-repeat: no-repeat;
+}
+.creditcard_ccb{
+	background-image: url(../images/bank/ccb.png);
+    background-repeat: no-repeat;
+}
+.creditcard_icbc{
+	background-image: url(../images/bank/icbc.png);
+    background-repeat: no-repeat;
+}
+.creditcard_boc{
+	background-image: url(../images/bank/boc.png);
+    background-repeat: no-repeat;
+}
+.creditcard_abc{
+	background-image: url(../images/bank/abc.png);
+    background-repeat: no-repeat;
+}
+.creditcard_cmb{
+	background-image: url(../images/bank/cmb.png);
+    background-repeat: no-repeat;
+}
+.creditcard_spdb{
+	background-image: url(../images/bank/spdb.png);
+    background-repeat: no-repeat;
+}
+.creditcard_psbc{
+	background-image: url(../images/bank/psbc.png);
+    background-repeat: no-repeat;
+}
+.more_unionpay{
+	background-image: url(../images/bank/unionpay.png);
+    background-repeat: no-repeat;
+}
+.order_step{
+	padding: 20px 0px 0px 30px;
+    margin: 20px 0px 0px;
+}
+.order_step .btn{
+	display: block;
+	width: 150px;
+	height: 36px;
+	line-height: 20px;
+}
+.order_step .goback {
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+}

@@ -1,0 +1,1 @@
+<?php  echo Yii::$app->urlManager->createUrl(['flight/dctwo', array('qid'=>$f['FlightDynamicID'],'fid'=>$f['FlightWfid'],'Wfgoid'=>$f['Wfgoid'],'Wftoid'=>$f['Wftoid'],'wftime'=>$f['FlightWftime'])]);?>
